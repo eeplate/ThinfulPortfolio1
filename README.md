@@ -1,2 +1,2 @@
-# ThinfulPortfolio1
+# ThinkfulPortfolio1
 Assignment for Thinkful
