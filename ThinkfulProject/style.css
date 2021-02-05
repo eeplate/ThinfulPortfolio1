@@ -1,0 +1,62 @@
+body {
+    background-color:#bacec1 ;
+    padding: 75px;
+    margin: 25px;
+    color: white;
+    font-family: marketdeco, century gothic, courier new, sans-serif;
+}
+
+
+@font-face {
+    src: url(fonts/marketdeco.ttf);
+    font-family: marketdeco;
+}
+
+p{
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #888870;
+    background-color: #ffd5af;
+    border-radius: 50%;
+}
+
+li{
+    display: block; /*to omit those darn numbers/bullets, still used ul/ol as required, but eliminated the numbers and bullets*/
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.center{ /*this is to center all text*/
+    text-align: center;
+}
+
+
+/*and now to make my links colorful using pseudo-classes*/
+  a:link    { color: #f6f4e8;  }
+  a:visited { color: #1d3124;   }
+  a:hover   { color: #e59560; }
+  a:active  { color: #888870;  }
+
+.color{ /*this is for my main header*/
+    background-color: #ffd5af;
+    color: #888870;
+    border-radius: 50%
+}
+
+
+
+
